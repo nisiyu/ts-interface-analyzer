@@ -8,3 +8,10 @@
 - 字面量Object
 - 引用别的interface
 - 继承别的interface
+
+使用方法：
+
+```javascript
+const t = require('ts-interface-analyzer');
+t.generateData(filePath, interfaceNames, customizeRules);
+```
